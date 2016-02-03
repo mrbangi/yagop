@@ -4,6 +4,7 @@ https = require "ssl.https"
 ltn12 = require "ltn12"
 serpent = require "serpent"
 feedparser = require "feedparser"
+chat = require "supergroups"
 
 json = (loadfile "./libs/JSON.lua")()
 mimetype = (loadfile "./libs/mimetype.lua")()
